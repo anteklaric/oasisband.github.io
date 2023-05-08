@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - A Bell Will Ring</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 10 - A Bell Will Ring</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/dont1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/6L2SMDD5Iam5ItUwVKk5V2?si=df7a3687b2364f76" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/XiVJD10Bv7k" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/au/album/a-bell-will-ring/193166989?i=193167850" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>A Bell Will Ring</h4>
+                        <p>A little space, a little time
+                            <br>See what it can do
+                            <br>A little faith, peace of mind
+                            <br>See what passes through
+                            
+                            <br><br>The sun will shine on you again
+                            <br>A bell will ring inside your head
+                            <br>And all will be brand new
+                            
+                            <br><br>Come alive, come on in
+                            <br>Here's something that you know
+                            <br>The worlds as wide
+                            <br>As your life is thin
+                            <br>So entertain your goals
+                            
+                            <br><br>The sun will shine on you again
+                            <br>A bell will ring inside your head
+                            <br>And all will be brand new
+                            <br> All will be brand new
+                            
+                            <br><br>I can tell you what you wanna hear
+                            <br>I've been there once before
+                            <br>You pulled me through my empty nights
+                            <br>Sleepless on your floor
+                            
+                            <br><br>The sun will shine on you again
+                            <br>A bell will ring inside your head
+                            <br>And all will be brand new 
+                             </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

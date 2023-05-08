@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Bring It On Down</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 7 - Bring It On Down</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/definitely1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/0PRBSIREQi20aXWvOG6p9t?si=77c8860cae174f55" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/dqOAzxpkXrA" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/nz/album/bring-it-on-down/312033881?i=312033888" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Bring It On Down</h4>
+                        <p>What was that sound ringing around your brain?
+                            <br>Today was just a blur you've got a head like a ghost train
+                            <br>What was that sound ringing around your brain?
+                            <br>You're here on your own who you gonna find to blame?
+                            
+                            <br><br>You're the outcast
+                            <br>You're the underclass
+                            <br>But you don't care, because you're living fast
+                            <br>You're the uninvited guest who stays 'til the end
+                            <br>I know you've got a problem that the devil sends
+                            <br>You think they're talking 'bout you, but you don't know who
+                            <br>I'll be scraping their lives from the sole of my shoe tonight
+                            
+                            <br><br>Bring it on down, bring it down for me
+                            <br>Your head's in a fish tank
+                            <br>Your body and your mind can't breathe
+                            
+                            <br><br>Bring it on down, bring it out of me
+                            <br>Your head's in a fish tank
+                            <br>Your body and your mind can't breathe
+                            
+                            <br><br>You're the outcast
+                            <br>You're the underclass
+                            <br>But you don't care, because you're living fast
+                            <br>You're the uninvited guest who stays 'til the end
+                            <br>I know you've got a problem that the devil sends
+                            <br>You think they're talking 'bout you, but you don't know who
+                            <br>I'll be scraping their lives from the sole of my shoe tonight 
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

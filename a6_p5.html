@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - The Importance Of Being Idle</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 5 - The Importance Of Being Idle</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/dont1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/1gCYG3j4dpZLIE7u6uz2aB?si=411ccca046e344cff" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/jySfU10IQu4" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/au/album/the-importance-of-being-idle/193166989?i=193167112" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>The Importance Of Being Idle</h4>
+                        <p>I sold my soul for the second time
+                            <br>'Cause the man don't pay me
+                            <br>I begged my landlord for some more time
+                            <br>He said, "Son, the bills are waiting."
+                            <br>My best friend called me the other night
+                            <br>He said, "Man, are you crazy?"
+                            <br>My girlfriend told me to get a life
+                            <br>She said, "Boy, you lazy."
+                            
+                            <br><br>But I don't mind
+                            <br>As long as there's a bed beneath the stars that shine
+                            <br>I'll be fine
+                            <br>If you give me a minute
+                            <br>A man's got a limit
+                            <br>I can't get a life if my heart's not in it
+                            
+                            <br><br>I don't mind
+                            <br>As long as there's a bed beneath the stars that shine
+                            <br>I'll be fine
+                            <br>Give me a minute
+                            <br>A man's got a limit
+                            <br>I can't get a life if my heart's not in it
+                            
+                            <br><br>I lost my faith in the summer time
+                            <br>'Cause it don't stop raining
+                            <br>The sky all day is as black as night
+                            <br>But I'm not complaining
+                            <br>I begged my doctor for one more line
+                            <br>He said, "Son, words fail me."
+                            <br>It ain't no place to be killing time
+                            <br>I guess I'm just lazy
+                            
+                            <br><br>I don't mind
+                            <br>As long as there's a bed beneath the stars that shine
+                            <br>I'll be fine
+                            <br>Give me a minute
+                            <br>A man's got a limit
+                            <br>I can't get a life if my heart's not in it
+                            
+                             </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

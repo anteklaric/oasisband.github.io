@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Songbird</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 5 - Songbird</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/heathen1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/7yDh4GJAoiAJJg2lPaSt4X?si=21903a2605d34965" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/0KJgBkreAuw" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/us/album/songbird/1517507851?i=1517508239" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Songbird</h4>
+                        <p>Talking to the songbird yesterday
+                            <br>Flew me to a place not far away
+                            <br>She's a little pilot in my mind
+                            <br>Singing songs of love to pass the time
+                            
+                            <br><br>Gonna write a song so she can see
+                            <br>Give her all the love she gives to me
+                            <br>Talk of better days that have yet to come
+                            <br>Never felt this love from anyone
+                            
+                            <br><br>She's not anyone
+                            <br>She's not anyone
+                            <br>She's not anyone
+                            
+                            <br><br>A man can never dream these kinds of things
+                            <br>Especially when she came and spread her wings
+                            <br>Whispered in my ear the things I'd like
+                            <br>Then she flew away into the night
+                            
+                            <br><br>Gonna write a song so she can see
+                            <br>Give her all the love she gives to me
+                            <br>Talk of better days that have yet to come
+                            <br>Never felt this love from anyone
+                            
+                            <br><br>She's not anyone
+                            <br>She's not anyone
+                            <br>She's not anyone 
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Little James</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 5 - Little James</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/standing1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/2bQFHF1KT7YFIa0rC6N21G?si=4be1b4e6a8f74bf1" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/_AV75S22wGw" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/nz/album/little-james/312976049?i=312976364" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Little James</h4>
+                        <p>Little James, we're all the same
+                            <br>They always seem to look to us
+                            <br>But we weren't meant to be grown ups
+                            <br>Thank you for your smile
+                            <br> You make it all worthwhile to us
+                            
+                            <br><br>You live for your toys, even though they make noise
+                            <br>Have you ever played with Plasticine
+                            <br>Or even tried a trampoline?
+                            <br>Thank you for your smile
+                            <br>You make it all worthwhile to us
+                            
+                            <br><br>I'm singing this song for you and your mum that's all
+                            <br>It won't be long before everyone is gone
+                            
+                            <br><br>Sailed out to sea, your mum you and me
+                            <br>You swam the ocean like a child
+                            <br>Life around us was so wild
+                            <br>Thank you for your smile
+                            <br>You make it all worthwhile to us
+                            
+                            <br><br>I'm singing this song for you and your mum that's all
+                            <br>It won't be long before everyone is gone 
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

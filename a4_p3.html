@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Who Feels Love?</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 3 - Who Feels Love?</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/standing1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/2l7UFx0Uy74r6qWVff5bnR?si=7043338f0c564dc8" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/e7rzVfQJYF8" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/nz/album/who-feels-love/312976049?i=312976328" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Who Feels Love?</h4>
+                        <p>Found what I've lost inside
+                            <br>My spirit has been purified
+                            <br>Take a thorn from my pride
+                            <br>And hand in hand we'll take a walk outside
+                            
+                            <br><br>Thank you for the sun, the one that shines on everyone
+                            <br>Who feels love
+                            <br>Now there's a million years between my fantasies and fears
+                            <br>I feel love
+                            
+                            <br><br>I'm leaving all that I see
+                            <br>Now all my emotions fill the air I breathe
+                            <br>Now you understand that this is not the promised land
+                            <br>They spoke of
+                            <br>There's nothing more to be
+                            <br>If you can be the remedy who heals love
+                            
+                            <br><br>Thank you for the sun, the one that shines on everyone
+                            <br>Who feels love
+                            <br>Now there's a million years between my fantasies and fears
+                            <br> I feel love
+                            
+                            <br><br>I thank you for the sun, the one that shines on everyone
+                            <br>Who feels love
+                            <br>Now there's a million years between my fantasies and fears
+                            <br>I feel love 
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

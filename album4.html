@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Standing On The Shoulder Of Giants</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Standing On The Shoulder Of Giants</h3>
+                <div class="album_p-cont">
+                    <div class="album_p-slika">
+                        <img src="SLIKE/standing1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/album/6F2iD5c7Aca3E0wmmPhgax?si=thLK8Ls6Tb64qsOOaYoG8A" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtube.com/playlist?list=PL7Eh9ZzbqTg1hiumL3xiy5Xdu3MGpskBq" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/nz/album/standing-on-the-shoulder-of-giants/312976049" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text4">
+                        <h4>Songs</h4>
+                        <ol><a href="a4_p1.html"><li>F*ckin' in The Bushes</li></a><br><a href="a4_p2.html"><li>Go Let It Out</li></a><br><a href="a4_p3.html"><li>Who Feels Love?</li></a><br><a href="a4_p4.html"><li>Put Yer Money Where Yer Mouth Is</li></a><br><a href="a4_p5.html"><li>Little James</li></a><br><a href="a4_p6.html"><li>Gas Panic!</li></a><br><a href="a4_p7.html"><li>Where Did It All Go Wrong?</li></a><br><a href="a4_p8.html"><li>Sunday Morning Call</li></a><br><a href="a4_p9.html"><li>I Can See a Liar</li></a><br><a href="a4_p10.html"><li>Roll It Over</li></a></ol>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

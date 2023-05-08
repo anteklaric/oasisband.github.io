@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Definitely Maybe</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Definitely Maybe</h3>
+                <div class="album_p-cont">
+                    <div class="album_p-slika">
+                        <img src="SLIKE/definitely1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/album/5zfhhKXHK0YQdvacCs1ErM?si=6ZYhAXUKRgWEIt4r9HQgvA" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://www.youtube.com/playlist?list=PLiN-7mukU_REi8ejQdiEqZ0bbZWZlpMWD" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/nz/album/definitely-maybe/312033881" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text">
+                        <h4>Songs</h4>
+                        <ol><a href="a1_p1.html"><li>Rock'N'Roll Star</li></a><br><a href="a1_p2.html"><li>Shakermaker</li></a><br><a href="a1_p3.html"><li>Live Forever</li></a><br><a href="a1_p4.html"><li>Up In The Sky</li></a><br><a href="a1_p5.html"><li>Columbia</li></a><br><a href="a1_p6.html"><li>Supersonic</li></a><br><a href="a1_p7.html"><li>Bring It On Down</li></a><br><a href="a1_p8.html"><li>Cigarettes & Alcohol</li></a><br><a href="a1_p9.html"><li>Digsy's Dinner</li></a><br><a href="a1_p10.html"><li>Slide Away</li></a><br><a href="a1_p11.html"><li>Married With Children</li></a></ol>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

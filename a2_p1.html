@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Hello</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 1 - Hello</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/morning1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/2LmwUKeGCJZUKHKwOrX3Xb?si=43c846b9ead24594" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/1HceJD0XDXY" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/us/album/hello/1517447039?i=1517447321" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Hello</h4>
+                        <p>I don't feel as if I know you
+                            <br>You take up all my time
+                            <br>The days are long and the nights will throw you away
+                            <br>'Cause the sun don't shine
+                            
+                            <br><br>Nobody ever mentions the weather
+                            <br>Can make or break your day
+                            <br>Nobody ever seems to remember
+                            <br>Life is a game we play
+                            
+                            <br><br>We live in the shadows and we
+                            <br>Had the chance and threw it away
+                            <br>And it's never gonna be the same
+                            <br>'Cause the years are falling by like the rain
+                            <br>It's never gonna be the same
+                            <br>'Til the life I knew comes to my house and says
+                            <br>Hello
+                            
+                            <br><br>There ain't no sense in feeling lonely
+                            <br>You got no faith in you
+                            <br>But I've got a feeling you still owe me
+                            <br>So wipe the shit from your shoes
+                            
+                            <br>Nobody ever mentions the weather
+                            <br>Can make or break your day
+                            <br>Nobody ever seems to remember
+                            <br>Life is a game we play
+                            
+                            <br><br>We live in the shadows and we
+                            <br>Had the chance and threw it away
+                            <br>And it's never gonna be the same
+                            <br>'Cause the years are falling by like the rain
+                            <br>It's never gonna be the same
+                            <br>'Til the life I knew comes to my house and says
+                            
+                            <br><br>Hello, hello
+                            <br>It's good to be back, it's good to be back
+                            <br>Hello, hello
+                            <br>It's good to be back, it's good to be back
+                            <br>Hello, hello
+                            <br>It's good to be back, it's good to be back
+                            <br>Hello, hello, hello
+                            
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

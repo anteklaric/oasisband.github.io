@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Heathen Chemistry</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Heathen Chemistry</h3>
+                <div class="album_p-cont">
+                    <div class="album_p-slika">
+                        <img src="SLIKE/heathen1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/album/4mMan8IGNJUhZ6du15ki5T?si=7CAMWq-9RHaHC6heDDH8zA" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtube.com/playlist?list=OLAK5uy_mdS3KZZleTyzNvlJwWyVVnWedH6OjFjCM" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/us/album/heathen-chemistry/1517507851" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text">
+                        <h4>Songs</h4>
+                        <ol><a href="a5_p1.html"><li>The Hindu Times</li></a><br><a href="a5_p2.html"><li>Force Of Nature</li></a><br><a href="a5_p3.html"><li>Hung In A Bad Place</li></a><br><a href="a5_p4.html"><li>Stop Crying Your Heart Out</li></a><br><a href="a5_p5.html"><li>Songbird</li></a><br><a href="a5_p6.html"><li>Little By Little</li></a><br><li>A Quick Peep</li><br><a href="a5_p8.html"><li>(Probably)All In My Mind</li></a><br><a href="a5_p9.html"><li>She Is Love</li></a><br><a href="a5_p10.html"><li>Born On A Different Cloud</li></a><br><a href="a5_p11.html"><li>Better Man</li></a></ol>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Mucky Fingers</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 2 - Mucky Fingers</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/dont1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/7dsr9k4oZK4wEvBsryvobq?si=5b5a7bd4131447e5" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/5zr5gpPBXko" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/au/album/mucky-fingers/193166989?i=193167051" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Mucky Fingers</h4>
+                        <p>I know you think you deserve
+                           <br>An explanation on the meanings of life
+                           <br>But what you think that you heard
+                           <br>Slipped away out the back of your mind
+                            
+                           <br><br>You'll get your mucky fingers burnt
+                           <br>You get your truth from the lies you were learned
+                           <br>When all your plastic believers will leave us
+                            <br>And they won't return
+                            <br>(Walk on)
+                            
+                            <br><br>And when you look in the mirror
+                            <br>And you're tying up your buttons and bows
+                            <br>And as you face your disease
+                            <br>You can squeeze into the emperor's clothes
+                            
+                            <br><br>You found your God in a paperback
+                            <br>You get your history from the union jack
+                            <br>And all your brothers and sisters have gone
+                            <br>And they won't come back
+                            
+                            <br><br>I'm fed up with life in the city
+                            <br>All the phonies have blown my mind
+                            <br>When I'm gone, yeah, you look like you'd miss me
+                            <br>So come along with me
+                            <br>But don't ask why
+                            <br>'Cause it's all mine
+                            <br>It's all mine
+                            <br>It's all mine
+                            <br>It's all mine
+                            
+                            <br><br>It's all mine
+                            <br>It's all mine
+                            <br>It's all mine
+                            <br>It's all mine </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

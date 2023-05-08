@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Dig Out Your Soul</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Dig Out Your Soul</h3>
+                <div class="album_p-cont">
+                    <div class="album_p-slika">
+                        <img src="SLIKE/dig.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/album/75KnF13DIx7GXfz5IesWtT?si=OdZ8j0J-Qs6zlEUkpLVNOA" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtube.com/playlist?list=PLi_eUMd6th2JBTRzAUg8ld5MMfsrCEXCu" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/us/album/dig-out-your-soul/1517495355" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text">
+                        <h4>Songs</h4>
+                        <ol><a href="a7_p1.html"><li>Bag It Up</li></a><br><a href="a7_p2.html"><li>The Turning</li></a><br><a href="a7_p3.html"><li>Waiting For The Rapture</li></a><br><a href="a7_p4.html"><li>The Shock Of The Lightning</li></a><br><a href="a7_p5.html"><li>I'm Outta Time</li></a><br><a href="a7_p6.html"><li>(Get Off Your) High Horse Lady</li></a><br><a href="a7_p7.html"><li>Falling Down</li></a><br><a href="a7_p8.html"><li>To Be Where There's Life</li></a><br><a href="a7_p9.html"><li>Ain't Got Nothin'</li></a><br><a href="a7_p10.html"><li>The Nature Of Reality</li></a><br><a href="a7_p11.html"><li>Solider On</li></a></ol>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

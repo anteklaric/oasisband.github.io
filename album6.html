@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Don't Believe The Truth</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Don't Believe The Truth</h3>
+                <div class="album_p-cont">
+                    <div class="album_p-slika">
+                        <img src="SLIKE/dont1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/album/56VuARmradZgJcSaVucTWn?si=H7z4pEzjR2ioE7YLx_96zQ" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtube.com/playlist?list=PLE48D112F1EF90AB7" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/au/album/dont-believe-the-truth/193166989" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text">
+                        <h4>Songs</h4>
+                        <ol><a href="a6_p1.html"><li>Turn Up The Sun</li></a><br><a href="a6_p2.html"><li>Mucky Fingers</li></a><br><a href="a6_p3.html"><li>Lyla</li></a><br><a href="a6_p4.html"><li>Love Like A Bomb</li></a><br><a href="a6_p5.html"><li>The Importance Of Being Idle</li></a><br><a href="a6_p6.html"><li>The Meaning Of Soul</li></a><br><a href="a6_p7.html"><li>Guess God Thinks I'm Abel</li></a><br><a href="a6_p8.html"><li>Part Of The Queue</li></a><br><a href="a6_p9.html"><li>Keep The Dream Alive</li></a><br><a href="a6_p10.html"><li>A Bell Will Ring</li></a><br><a href="a6_p11.html"><li>Let There Be Love</li></a></ol>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>

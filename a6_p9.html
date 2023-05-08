@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="OASIS fan page">
+        <meta name="author" content="Ante Klaric">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="SLIKE/o.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Oasis - Keep The Dream Alive</title>
+    </head>
+    <body>
+        <!-- BODY -->
+    <main>  
+        <!-- navigacija-->
+        <nav>
+            <a class="logoslikica" href="index.html"><img class="logo" src="SLIKE/oasiss.png"></a> 
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="story.html">THE STORY</a></li>
+            <li><a href="albums.html">DISCOGRAPHY</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="quotes.html">QUOTES</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <!-- container-->
+        <div class="flex-container">
+            <!-- ikone -->
+            <section class="album_p">
+                <h3>Track 9 - Keep The Dream Alive</h3>
+                <div class="album_p-cont1">
+                    <div class="album_p-slika1">
+                        <img src="SLIKE/dont1.jpg">
+                        <div class="album_p-naslov">
+                            <a href="https://open.spotify.com/track/6OBvONDIuhYRsR1DKwlbaW?si=c9229ff7b2034763" target="_blank"><img src="SLIKE/spoty.png"></a>
+                            <a href="https://youtu.be/m8tWv0uNhLY" target="_blank"><img src="SLIKE/yt.png"></a>
+                            <a href="https://music.apple.com/au/album/keep-the-dream-alive/193166989?i=193167629" target="_blank"><img src="SLIKE/it.png"></a>
+                        </div>
+                    </div>
+                    <div class="album_p-text1">
+                        <h4>Keep The Dream Alive</h4>
+                        <p>'Four Seasons' seconds flicker and flash, I'm alone
+                           <br>A lonely scream provides the scene, it's no home
+                            <br>Every night I hear you scream
+                            <br>But you don't say what you mean
+                            <br>This was my dream, but now my dream has flown
+                            
+                            <br><br>I'm at the crossroads, waiting for a sign
+                            <br>My life is standing still, but I'm still alive
+                            <br>Every night I think I know
+                            <br>In the morning – where did it go?
+                            <br>The answers disappear when I open my eyes
+                            
+                            <br><br>I'm no stranger to this place
+                            <br>Where real life and dreams collide
+                            <br>And even though I fall from grace
+                            <br>I will keep the dream alive
+                            <br>I will keep the dream alive
+                            
+                            <br><br>'Four Seasons' seconds flicker and flash, I'm alone
+                            <br>A lonely scream provides the scene, it's no home
+                            <br>Every night I hear you scream
+                            <br>But you don't say what you mean
+                            <br>This was my dream, but now my dream has flown
+                            
+                            <br><br>I'm no stranger to this place
+                            <br>Where real life and dreams collide
+                            <br>And even though I fall from grace
+                            <br>I will keep the dream alive
+                            <br>I will keep the dream alive 
+                             </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- footer-->
+        <footer>
+            <div class="footer">
+                <div class="text_foot">
+                    <p>Big Brother Recordings, all rights reserved</p>
+                </div>  
+                <div class="social_foot">
+                    <div class="foot_img">
+                        <img src="SLIKE/ig.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/tweet.png">
+                    </div>
+                    <div class="foot_img">
+                        <img src="SLIKE/face.png">
+                    </div>
+                </div>    
+            </div>
+        </footer>
+    </main>    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+    </script>
+    </body>
+</html>
